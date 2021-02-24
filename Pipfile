@@ -12,12 +12,15 @@ flask-sqlalchemy = "*"
 sqlalchemy = "*"
 wtforms = "*"
 flask-wtf = "*"
-flask-login = "*"
+alembic = "*"
+flask-migrate = "*"
+flask-jwt-extended = "*"
 
 [dev-packages]
 pylint = "*"
 pycodestyle = "*"
 rope = "*"
+autopep8 = "*"
 
 [requires]
 python_version = "3.9"
